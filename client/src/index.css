@@ -1,0 +1,19 @@
+
+
+body, html{
+  background-color: #0E0400;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Lora', serif; */
+    font-weight:300;
+}
+
+.bg-dark {
+  background-color:#0E0400!important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

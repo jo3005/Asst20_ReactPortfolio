@@ -1,0 +1,16 @@
+.img-thumbnail {
+    border: none;
+    padding:0pt 5pt 5pt 5pt;
+    background-color: transparent;
+    box-shadow: none;
+    height: auto;
+    margin-left:-10px;
+    margin-top: 10px;
+}
+.thumbs{
+    opacity: 100%;
+    
+}
+.webthumbs{
+    margin-top:10px;
+}

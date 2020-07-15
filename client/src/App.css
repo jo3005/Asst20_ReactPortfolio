@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header2 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.am_background {
+  background-image: url("./images/background_aurora.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background:  #282c34;
+  color:white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* TODO:  Make different background picture sizes for the different screen sizes*/
+@media screen and (max-width: 680px) {
+  .am_background {
+      background-image: url("./images/background_aurora_1280x760.jpg");
+  }
+  .contact_background {
+      background-image: url("./images/call_me.jpg");
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 960px) {
+  .am_background {
+      background-image: url("./images/background_aurora_full.png");
+  }   
+  .contact_background {
+      background-image: url("./images/call_me_1152x768.jpg");
+  }
+}
+
+@media screen and (min-width: 961px)  {
+  .am_background {
+      background-image: url("./images/background_aurora_full.png");
+  }   
+  .contact_background {
+      background-image: url("./images/call_me_1920x1280.jpg");
+  }
+}
