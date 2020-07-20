@@ -10,7 +10,7 @@ import {Container,Row,Col,ButtonGroup,Button} from "react-bootstrap"
 function Biography() {
     return (
         <>
-            <Container className="container-fluid biography">
+            <Container className="container-fluid biography am_background">
                 <Row><h4 className="am_content quals">Dr Joanna Z. Sikorska</h4> </Row>
                 <Row><p className="am_content quals">BE (Mech, 1st Class Hons),</p></Row> 
                 <Row><p className="am_content quals">PhD (Mech Eng)</p></Row>

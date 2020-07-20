@@ -15,7 +15,7 @@ html {
     color:white;
 }
 
-body, root{
+body, #root {
     background-color: #0E0400;
     color:white;
 }
@@ -72,7 +72,7 @@ footer {
     opacity:0.5;
 }
 
-.am_content_headers, .am_content, .project_desc ,.project_title, .project_customer{
+.am_content_headers, .am_content, .project_desc ,.project_title, .project_customer .contacts .biography .page_headers{
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -207,7 +207,7 @@ h5.project_customer {
     text-align: left!important;
 }
 
-.fas,.fab {
+.FontAwesomeIcon {
     font-size: 150%;
     color:black;
     margin-left: -10px;
@@ -233,10 +233,6 @@ i.far.fa-copyright {
 }
 
 
-.contact_card{
-    background: transparent;
-    width:100%;
-}
 
 .contact_msg.form-control{
     height: 8rem;
@@ -291,6 +287,34 @@ i.far.fa-copyright {
     border-radius: 0.25rem;
 }
 
+.contacts {
+    
+    background-image: url("../images/call_me.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    max-height:100%;
+    min-width: auto;
+    min-height:30px;
+    
+}
+
+.biography {
+    background-image:  url("../images/background_aurora_full.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    max-height:100%;
+    min-width: auto;
+    min-height:30px;
+}
+
+.card.contact_card{
+    background: transparent;
+    width:100%;
+}
 
 /* TODO:  Make different background picture sizes for the different screen sizes*/
 @media screen and (max-width: 680px) {

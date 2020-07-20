@@ -3,11 +3,12 @@ import "./style.css";
 import {Nav,Button} from "react-bootstrap"
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
-function Navbar() {
+function Navbar(props) {
+  const activepagename=`/${props.activePage}`;
   return (
     <Nav
       className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
-      defaultActiveKey="/home" as="ul">
+      defaultActiveKey={activepagename} as="ul">
       <h1 className="navbar-brand" href="#">Personal Portfolio</h1>
       <Button 
         className="navbar-toggler" 
